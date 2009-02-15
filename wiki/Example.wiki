@@ -12,8 +12,7 @@ Let's glance through this example source file to see how it's been written. Its 
 A HMM is a common way to model the probabilities of receiving a corrupted packet in a wireless network. It supposes that the wireless channel is either jammed or not (e.g. because of some kind of interference); this status modifies the probability of packet loss.
 
 First, let's build an HMM that generates discrete observations, depicted below (with obvious notations):
-
-[http://code.google.com/images/code_sm.png]
+[http://jahmm.googlecode.com/svn/wiki/images/example/exampleHmm.png]
 
 
 The following program builds this HMM:
@@ -117,7 +116,7 @@ The idea is to generate 10 iterations, and at each iteration to compute the Kull
 }}}
 
 This can directly be fed to a plotting program (here gnuplot script) to generate:
-The Kullback-Leibler distance
+[http://jahmm.googlecode.com/svn/wiki/images/example/hmmExample.png]
 
 It's always interesting to have a graphical output of what's going on. Let's draw the resulting learnt HMM to see how it differs from the original one:
 
@@ -130,7 +129,7 @@ The arguments of the write method are of course the HMM to draw and the file nam
 <tt>dot -Tps learntHmm.dot -o learntHmm.ps</tt>
 
 This gives this result:
-The HMM learnt
+[http://jahmm.googlecode.com/svn/wiki/images/example/learntHmm.png]
 
 Each state is depicted by a circle. In each circle, the first number is the state number. The initial probability Pi is given if it is higher than a small threshold (the state is then drawn with a double line). The numbers in the brackets give the probabilities of each observation.
 
