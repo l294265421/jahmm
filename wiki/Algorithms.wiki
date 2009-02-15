@@ -2,8 +2,7 @@
 
 = Introduction =
 
-Add your content here.
-
+Jahmm provide an implementation of various algorithms related to HMMs.
 
 
 = Details =
