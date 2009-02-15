@@ -77,4 +77,7 @@ The following command computes the Kullback-Leibler distance between HMMs descri
 
 == Scripting ==
 
-Instead of launching the CLI 'by hand', one usually finds it more convenient to put all the commands in a script. Under Unix, the example above could be written in a short bash shell [http://jahmm.googlecode.com/svn/wiki/assets/cli/simpleExample.sh]; it is easily readable and could be converted to other scripting languages.
+Instead of launching the CLI 'by hand', one usually finds it more convenient to put all the commands in a script. Under Unix, the example above could be written in a short bash shell script such as this one:
+[http://jahmm.googlecode.com/svn/wiki/assets/cli/simpleExample.sh]
+
+This script is easily readable and could be converted to other scripting languages.
