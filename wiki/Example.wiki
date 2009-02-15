@@ -1,4 +1,5 @@
 #summary Using Jahmm: simple example
+#labels Featured
 
 == Basic concepts ==
 
