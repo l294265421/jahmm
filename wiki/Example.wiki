@@ -48,7 +48,7 @@ This is straightforward:
 Notice that one could have used integer values instead of discrete one. In this case, the value '0' (resp. '1') would have been associated to 'no packet loss' (resp. 'a packet loss'). The equivalent program would have been written:
 
 {{{
-OpdfInteger factory = new OpdfInteger(2);
+OpdfIntegerFactory factory = new OpdfIntegerFactory(2);
 Hmm<ObservationInteger> hmm = new Hmm<ObservationInteger>(2, factory);
 	
 hmm.setPi(0, 0.95);
@@ -59,7 +59,7 @@ hmm.setOpdf(1, new OpdfInteger(new double[] { 0.2, 0.8 }));
 ...
 }}}
 
-The argument ('2') of the OpdfInteger object constructor means that the observations can only have two values ('0' and '1').
+The argument ('2') of the {{{OpdfIntegerFactory}}} object constructor means that the observations can only have two values ('0' and '1').
 
 Now, let's build 200 observation sequences (of length 100) based on this HMM:
 
