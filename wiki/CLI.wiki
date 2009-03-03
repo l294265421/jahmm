@@ -24,7 +24,7 @@ We re-write an example covered on another page using the command-line interface.
 == Creating a HMM ==
 
 We first create a file that represents our reference HMM. It should look like the following.
-{{
+{{{
 Hmm v1.0
 
 NbStates 2
@@ -38,7 +38,7 @@ State
 Pi 0.05
 A 0.10 0.90
 IntegerOPDF [0.20 0.80 ]
-}}
+}}}
 
 The created HMM has 2 states and operates over integer observations. The allowed observations are 0 and 1. In the first state, the probability of 0 equals 0.95 and the probability of 1 equals 0.05. This file can be read by the CLI interface.
 
