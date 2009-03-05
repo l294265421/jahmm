@@ -1,0 +1,16 @@
+-classpath '/home/jmf/code/jahmm/jahmm/target/classes' -protected
+-sourcepath
+'/home/jmf/code/jahmm/jahmm/src/main/java'
+-author
+-bottom
+'Copyright &copy; 2009. All Rights Reserved.'
+-charset
+'ISO-8859-1'
+-d
+'/home/jmf/code/jahmm/jahmm/target/apidocs'
+-doctitle
+'Jahmm HMM library 0.6.2 API'
+-use
+-version
+-windowtitle
+'Jahmm HMM library 0.6.2 API'
