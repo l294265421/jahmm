@@ -4,7 +4,7 @@
 == Basic concepts ==
 
 Let's glance through this 
-<a href="http://jahmm.googlecode.com/svn/trunk/src/test/java/be/ac/ulg/montefiore/run/jahmm/test/SimpleExample.java">example source file</a>
+<a href="http://jahmm.googlecode.com/svn/trunk/src/main/java/be/ac/ulg/montefiore/run/jahmm/apps/sample/SimpleExample.java">example source file</a>
 to see how it's been written. Its aim is to:
 
     * build a HMM with given parameters;
